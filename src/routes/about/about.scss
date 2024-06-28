@@ -1,0 +1,144 @@
+.about{
+    &__wrapper{
+        max-width: 100%;
+        width: 100%;
+        height: 100vh;
+        background: rgb(104,79,255);
+        background: radial-gradient(circle, rgba(104,79,255,1) 0%, rgba(104,79,255,0.7553615196078431) 51%, rgba(104,79,255,1) 100%, rgba(104,79,255,0.7553615196078431) 7658%);
+        
+        
+    }
+    &__content{
+        padding-top: 90px;
+        h1{
+            padding-left: 150px;
+            color: #684FFF;
+            color: white;
+        }
+    }
+
+    &__text-hug{
+        max-width: 80%;
+        width: 100%;
+        min-height: 600px;
+        margin: 20px auto;
+        box-shadow: 0 0 10px 0 #684FFF;
+        background: rgba(240, 248, 255, 0.645);
+        border-radius: 16px;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(5px);
+        border: 1px solid rgba(255, 255, 255, 0.3);
+        padding: 20px;
+
+        display: flex;
+        justify-content: space-between;
+        h3{
+            color: #684FFF;
+            font-size: 24px;
+            text-align: center;
+        }
+        p{
+            color: #0a1931ce;
+        }
+
+
+        .bio{
+            max-width: 49%;
+            padding: 5px 10px;
+
+            p{
+                font-size: 18px;
+                color: #0a1931ce;
+                line-height: 30px;
+                letter-spacing: .8px;
+                // text-align: center;
+            }
+            border-right: 2px solid white;
+            border-radius: 50px;
+        }
+
+
+        .right__part{
+            max-width: 49%;
+            width: 100%;
+            border-left: 2px solid white;
+            border-radius: 50px;
+            padding: 5px 10px;
+
+
+
+
+            .cv__box{
+                max-width: 90%;
+                width: 100%;
+                background: rgba(30, 143, 255, 0.213);
+                border-radius: 15px;
+                padding: 10px;
+                margin: 20px auto;
+                margin-bottom: 10px;
+                box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    
+                h3{
+                    font-size: 24px;
+                    color: white;
+                }
+            }
+    
+            .cv__wrapper{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                max-width: 100%;
+                width: 100%;
+                height: 60px;
+                gap: 10px;
+    
+    
+                a{
+                    max-width: 30%;
+                    width: 100%;
+                    background-color: #6f717464;
+                    border-radius: 10px;
+                    height: 50px;
+                    display: flex;
+                    overflow: hidden;
+                    align-items: center;
+                    gap: 5px;
+                    transition: .3s ease-in-out;
+    
+                    &:hover{
+                        transform: scale(103%);
+                    }
+    
+                }
+                .cv__card{
+                    img{
+                        max-width: 50px;
+                        width: 100%;
+                    }
+                }
+            }
+        }
+
+        .skills-languages{
+            margin-bottom: 50px;
+            
+            .languages{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+            }
+
+            ul{
+                li{
+                    font-size: 20px;
+                    line-height: 40px;
+                    letter-spacing: 2px;
+                    color: #0a1931ce;
+                    font-family: "Days One", sans-serif;
+                }
+            }
+
+        }
+    }
+}

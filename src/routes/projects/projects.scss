@@ -1,0 +1,31 @@
+.projects{
+    max-width: 100% !important;
+    width: 100% !important;
+    height: 100vh;
+    overflow-y: auto;
+    padding-top: 100px;
+    background: linear-gradient(250deg, #0A1931 0%, rgb(2, 71, 135) 48%, #0A1931 100%);
+    h1{
+        color: white;
+    }
+
+    .big__hug{
+        max-width: 100%;
+        width: 100%;
+        min-height: 1000px;
+        overflow-y: auto;
+    }
+
+    .projects__wrapper{
+        padding: 30px;
+        gap: 50px;
+        max-width: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+
+    }
+
+    
+}

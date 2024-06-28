@@ -1,0 +1,50 @@
+nav{
+
+    .nav__hug{
+        max-width: 50%;
+        width: 100%;
+        margin: 10px auto;
+        border-radius: 20px;
+        
+        padding: 10px;
+        
+        backdrop-filter: blur(5px);
+        background-color: rgba(255, 255, 255, 0.613);
+
+        color: white;
+        position: fixed;
+        top: 50px;
+        z-index: 100;
+        transform: translate(50%, -50%);
+        transition: .3s;
+
+        &.active{
+            transform: translate(0, 0);
+        }
+
+        ul{
+            display: flex;
+            align-items: center;
+            
+            justify-content: space-between;
+            padding: 0 15px;
+        }
+
+        .nav__link{
+            color: rgb(43, 43, 43);
+            border-bottom: 2px solid transparent;
+            padding-bottom: 5px;
+            font-family: "Days One", sans-serif;
+            color: #0a1931ce;
+        }
+
+        .active{
+            color: #684fff;
+            border-bottom: 2px solid #684fff;
+            padding-bottom: 5px;
+            display: block;
+            transform: scale(1.1);
+            transition: .2s
+        }
+    }
+}

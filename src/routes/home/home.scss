@@ -1,0 +1,94 @@
+.hero__wrapper{
+    max-width: 100%;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+    .hero__profile{
+        max-width: 40%;
+        width: 100%;
+        height: 100%;
+        background-color: #684fff;
+        border-bottom-right-radius: 100px;
+        border-top-left-radius: 100px;
+        position: relative;
+
+        background: rgb(104,79,255);
+background: linear-gradient(200deg, #684fff 0%, rgba(105, 79, 255, 0.8) 48%, #684fff 76%, #684fff 100%);
+
+
+        .profile__img{
+            max-width: 450px;
+            width: 100%;
+            height: 450px;
+            border-radius: 50%;
+            background: rgb(104,79,255);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: linear-gradient(270deg, rgba(104,79,255,1) 0%, rgba(255,255,255,1) 100%);
+            
+            position: absolute;
+            right: -180px;
+            bottom: 25%;
+            z-index: 2;
+            overflow: hidden;
+
+            .image__hug{
+                max-width: 430px;
+                width: 100%;
+                height: 430px;
+                border-radius: 50%;
+                img{
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                    border-radius: 50%;
+                }
+
+            }
+        }
+    }
+
+    .hero__content{
+        max-width: 50%;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        max-width: 60%;
+        width: 100%;
+        height: 100vh;
+        padding: 50px;
+        
+
+        display: flex;
+        align-items: center;
+        justify-content: end;
+        text-align: end;
+        color: #0A1931;
+
+        span{
+            font-family: "Playwrite DE Grund", cursive;
+                        font-size: 20px;
+                    }
+            
+                    h1{
+                        font-size: 45px;
+                        
+                    }
+
+                    strong{
+                        color: #684FFF;
+                        letter-spacing: 4px;
+                    }
+
+                    small{
+                        color: #917ff6;
+                    }
+
+    }
+}

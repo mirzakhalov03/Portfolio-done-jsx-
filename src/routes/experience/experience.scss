@@ -1,0 +1,104 @@
+.experience{
+    &__wrapper{
+        max-width: 100%;
+        width: 100%;
+        height: 100vh;
+        background: rgb(104,79,255);
+        background: radial-gradient(circle, rgba(104,79,255,1) 0%, rgba(104,79,255,0.7553615196078431) 51%, rgba(104,79,255,1) 100%, rgba(104,79,255,0.7553615196078431) 7658%);
+        
+        
+    }
+    &__content{
+        padding-top: 90px;
+        h1{
+            padding-left: 150px;
+            color: #684FFF;
+            color: white;
+        }
+    }
+
+
+    &__text-hug{
+        max-width: 80%;
+        width: 100%;
+        min-height: 600px;
+        margin: 20px auto;
+        box-shadow: 0 0 10px 0 #684FFF;
+        background: rgba(240, 248, 255, 0.645);
+        border-radius: 16px;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(5px);
+        border: 1px solid rgba(255, 255, 255, 0.934);
+        padding: 20px;
+
+        display: flex;
+        justify-content: space-between;
+        h3{
+            color: #684FFF;
+            font-size: 24px;
+            text-align: center;
+        }
+        p{
+            color: #0a1931ce;
+        }
+
+
+        .workplace{
+            max-width: 49%;
+            width: 100%;
+            min-height: 500px;
+            padding: 0 20px 0 0;
+            border-right: 5px solid white;
+            li{
+                color: #0a1931ce;
+                font-size: 18px;
+                font-family: "Days One", sans-serif;
+                line-height: 40px;
+            }
+
+            span{
+                color: #684FFF;
+                padding-right: 50px;
+                font-weight: 500;
+            }
+
+            p{
+                color: #0a1931ce;
+                font-size: 18px;
+                line-height: 30px;
+            }
+
+            
+        }
+
+        .showcase{
+            width: 100%;
+            height: 300px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-top: 30px;
+
+            .dombit-pic1{
+                object-position: 10%; 
+            }
+
+            img{
+                max-width: 49%;
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                border-radius: 20px;
+            }
+
+            video{
+                max-width: 100%;
+                height: 100%;
+                object-fit: cover;
+                border-radius: 20px;
+            }
+            
+        }
+
+    }
+}
